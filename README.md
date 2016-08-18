@@ -1,5 +1,4 @@
 # PredictGestationalAge
-Predict Gestational Age from Cord Blood Methylation
 
 
 # Instructions for predicting gestational age from cord blood and/or blood spot methylation
