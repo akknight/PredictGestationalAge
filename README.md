@@ -11,21 +11,21 @@ Included with this file is R code that can be used to form the predictor; all co
 
 ##Files we provide include:
 
-1) ####cgprobesGApredictor.csv####:  Our list of CpG probes and coefficients for calculating predicted GA.
+1) ###cgprobesGApredictor.csv:  Our list of CpG probes and coefficients for calculating predicted GA.
 
-2)  ####GAPredictor.R ####: A wrapper program that reads in user-supplied data (see below), calls NormalizeAndPredictGA.R, and writes predicted GA output to a file.  May be modified by user to reflect filenames and pathnames of user-supplied data.
+2)  ###GAPredictor.R : A wrapper program that reads in user-supplied data (see below), calls NormalizeAndPredictGA.R, and writes predicted GA output to a file.  May be modified by user to reflect filenames and pathnames of user-supplied data.
 
-3)  ####NormalizeAndPredictGA.R ####:  Normalizes data and performs GA prediction.  This program will not normally require user modification.
+3)  ###NormalizeAndPredictGA.R:  Normalizes data and performs GA prediction.  This program will not normally require user modification.
 Normalization: Uses a version of BMIQ (modified by Steve Horvath) to normalize methylation data prior to calculating predicted GA.  Default normalization is set to TRUE in GAPredictor.R; normalization is highly recommended. Samples undergo a modified BMIQ normalization to a gold standard. 
 Prediction: Uses the information from cgprobesGApredictor.csv to fit the predictor.
 
-4)  ####TestDataset.csv ####:  A small demonstration dataset to provide an example of data format and allow testing and troubleshooting of the code.  If the programs run successfully, the three samples should have DNAm GAs of 37.366, 38.346, and 39.324.
+4)  ###TestDataset.csv:  A small demonstration dataset to provide an example of data format and allow testing and troubleshooting of the code.  If the programs run successfully, the three samples should have DNAm GAs of 37.366, 38.346, and 39.324.
 
 ##User must supply##:
 
-1)  ####A dataset formatted similarly to TestDataset.csv #### – i.e., a data frame of beta values, saved in .csv format.  The first column should contain CpG identifiers and should be labeled “CpGName”.  
+1)  ###A dataset formatted similarly to TestDataset.csv – i.e., a data frame of beta values, saved in .csv format.  The first column should contain CpG identifiers and should be labeled “CpGName”.  
 
-2)  ####Additional files 21, 22, and 24 #### from Horvath (2013), which may be obtained <a href="http://www.genomebiology.com/2013/14/10/R115/additional"> here</a>.
+2)  ###Additional files 21, 22, and 24 from Horvath (2013), which may be obtained <a href="http://www.genomebiology.com/2013/14/10/R115/additional"> here</a>.
 
 
 These files should not need any modification by the user.  Additional file 23 is NOT needed, as a different set of CpGs is used to predict GA (provided in cgprobesGApredictor.csv, described above). Additional file 25 is also NOT needed, as we have replaced it with NormalizeAndPredictGA.R (which is similar, but does not perform the transformation needed for predicting adult age.)
