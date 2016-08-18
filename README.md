@@ -7,7 +7,7 @@ Predict Gestational Age from Cord Blood Methylation
 To predict gestational age (GA) from methylation data, we follow procedures suggested by Steve Horvath in 
 <a href="http://genomebiology.com/2013/14/10/R115">Genome Biology 2013, 14:R115   doi:10.1186/gb-2013-14-10-r115</a>.
 
-Included with this file is R code that can be used to form the predictor; all code is adapted from the code provided by Horvath 2013.  The main changes are that 1) a different set of CpG sites are used to form the GA predictor, and 2) we do not perform his transformation of age, since our predictor is designed to be used with neonates and infants only.
+Included  is R code that can be used to form the predictor; all code is adapted from the code provided by Horvath 2013.  The main changes are that 1) a different set of CpG sites are used to form the GA predictor, and 2) we do not perform his transformation of age, since our predictor is designed to be used with neonates and infants only.
 
 ##Files we provide include:
 
