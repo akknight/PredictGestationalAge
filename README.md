@@ -1,9 +1,15 @@
 # PredictGestationalAge
 
 
-# Instructions for predicting gestational age from cord blood and/or blood spot methylation
+# Instructions for predicting gestational age from cord blood and/or blood spot methylation 
 
-To predict gestational age (GA) from methylation data, we follow procedures suggested by Steve Horvath in 
+This repository is a supplement to: 
+
+<i>An epigenetic clock for gestational age at birth based on blood methylation data </i>, in press at Genome Biology. Link coming soon! 
+
+
+
+To predict gestational age (GA) from methylation data (Illumina HumanMethylation27 or HumanMethylation450 BeadChip), we follow procedures suggested by Steve Horvath in 
 <a href="http://genomebiology.com/2013/14/10/R115">Genome Biology 2013, 14:R115   doi:10.1186/gb-2013-14-10-r115</a>.
 
 Included  is R code that can be used to form the predictor; all code is adapted from the code provided by Horvath 2013.  The main changes are that 1) a different set of CpG sites are used to form the GA predictor, and 2) we do not perform his transformation of age, since our predictor is designed to be used with neonates and infants only.
