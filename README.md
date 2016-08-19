@@ -74,3 +74,4 @@ The output should appear similar to:
 
 4) “CpG probes cannot be matched” refers to probes missing from the gold standard file. These probes will be removed from your dataset.
 
+<a href="https://zenodo.org/badge/latestdoi/23953/akknight/PredictGestationalAge"><img src="https://zenodo.org/badge/23953/akknight/PredictGestationalAge.svg" alt="10.5281/zenodo.60519"></a>
