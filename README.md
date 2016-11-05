@@ -5,7 +5,7 @@
 
 This repository is a supplement to: 
 
-<i> <strong> An epigenetic clock for gestational age at birth based on blood methylation data</i></strong>, in press at Genome Biology. Link coming soon! 
+<i> <strong> <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1068-z"> <i> An epigenetic clock for gestational age at birth based on blood methylation data </i></strong> </a>
 
 
 
